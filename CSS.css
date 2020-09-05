@@ -1,0 +1,655 @@
+			*
+			{
+				margin:0px;
+				padding:0px;
+			}
+			#allwrap
+			{
+				width:100%;
+				height:auto;
+				/*border:2px solid black;*/
+			}
+			#wrapper
+			{
+				width:1000px;
+				height:auto;
+				/*border:2px solid red;*/
+				margin:auto;
+			}
+			#header
+			{
+				width:1000px;
+				height:100px;
+				/*border:2px solid green;*/
+				background-image:url("images/1.jpg");
+			}
+			#logo
+			{
+				width:250px;
+				height:40px;
+				/*border:2px solid white;*/
+				color:white;
+				float:left;
+				font-family:calibri;
+				font-size:40px;
+				font-weight:bolder;
+				margin:47px 0px 0px 16px;
+			}
+			#Search
+			{
+				width:300px;
+				height:55px;
+				float:left;
+				/*border:2px solid white;*/
+				margin:30px 0px 0px 25px;
+			}
+			#Radio
+			{
+				width:300px;
+				height:25px;
+				/*border:2px solid red;*/
+				color:white;
+			}
+			#Searchbox
+			{
+				width:300px;
+				height:25px;
+			}
+			#Text
+			{
+				width:220px;
+				height:25px;
+			}
+			#Button
+			{
+				width:70px;
+				height:25px;
+				cursor:pointer;
+				margin:0px 0px 0px 0px;
+			}
+			#Button:hover
+			{
+				width:70px;
+				height:25px;
+				background-color:black;
+				color:white;
+			}
+			#Date
+			{
+				float:right;
+				width:300px;
+				height:25px;
+				/*border:2px solid white;*/
+				color:white;
+				font-weight:bold;
+				margin:68px 5px 0px 0px;
+				text-align:center;
+			}
+			#Menus
+			{
+				width:1000px;
+				height:30px;
+				overflow:hidden;
+				background-color:#870D0D;
+			}
+			#Menus > ul
+			{
+				list-style-type:none;
+			}
+			#Menus > ul > li
+			{
+				width:140px;
+				height:30px;
+				float:left;
+				border-right:2px solid white;
+				color:white;
+				text-align:center;
+				line-height:30px;
+			}
+			#Menus > ul > li > a
+			{
+				color:white;
+				font-size:14px;
+				text-decoration:none;
+				font-weight:bold;
+			}
+			#Menus > ul > li > a:hover
+			{
+				color:yellow;
+				font-size:14px;
+				text-decoration:none;
+				font-weight:bold;
+			}
+			#Content
+			{
+				width:1000px;
+				height:auto;
+				/*border:2px solid green;*/
+				margin:15px 0px 0px 0px;
+			}
+			#First
+			{
+				width:285px;
+				height:auto;
+				float:left;
+			}
+			#First > h1
+			{
+				color:#870D0D;
+				font-size:26px;
+				padding:10px 0px 0px 0px;
+			}
+			#First > p
+			{
+				text-align:justify;
+				font-size:15px;
+				padding:10px 0px 0px 0px;
+			}
+			#First > h6
+			{
+				color:red;
+				font-weight:bold;
+				font-size:14px;
+				padding:5px 0px 0px 0px;
+			}
+			#Second
+			{
+				width:350px;
+				height:auto;
+				float:left;
+				margin:2px 0px 0px 24px;
+			}
+			#Second > h2
+			{
+				color:black;
+				font-size:20px;
+				font-weight:bold;
+			}
+			#A
+			{
+				width:120px;
+				height:auto;
+				float:left;
+			}
+			#B
+			{
+				width:200px;
+				height:auto;
+				float:left;
+				margin:0px 0px 0px 8px;
+				text-align:justify;
+			}
+			#B > p
+			{
+				color:black;
+				font-size:14px;
+			}
+			#B > h2
+			{
+				color:red;
+				font-size:15px;
+				font-weight:bold;
+			}
+			#C
+			{
+				clear:both;
+				width:350px;
+				/*border:2px solid black;*/
+				height:auto;
+				margin:30px 0px 0px 30px;
+				padding:10px 0px 0px 0px;
+			}
+			#Read
+			{
+				width:350px;
+				height:auto;
+				/*border:2px solid black;*/
+				margin:10px 0px 0px 0px;
+			}
+			#Read > a
+			{
+				color:black;
+				text-decoration:none;
+			}
+			#Read > a:hover
+			{
+				color:red;
+				text-decoration:none;
+			}
+			#C > ul > li > a
+			{
+				color:brown;
+				text-decoration:none;
+			}
+			#C > ul > li > a:hover
+			{
+				color:red;
+				text-decoration:underline;
+			}
+			#Third
+			{
+				width:336px;
+				height:auto;
+				/*border:1px solid black;*/
+				float:left;
+				margin-left:-3px;
+			}
+			.D
+			{
+				width:106px;
+				height:auto;
+				font-size:13px;
+				margin:5px 0px 0px 5px;
+				float:left;
+			}
+			.E
+			{
+				margin:5px 0px 0px 0px;
+				color:red;
+			}
+			.E > a
+			{
+				text-decoration:none;
+				font-size:13px;
+				color:brown;
+			}
+			.E > a:hover
+			{
+				text-decoration:none;
+				font-size:13px;
+				color:red;
+			}
+			#F
+			{
+				width:330px;
+				height:auto;
+				/*border:1px solid black;*/
+				margin-top:125px;
+				padding:5px 0px 5px 5px;
+			}
+			#F > a
+			{
+				color:brown;
+				text-decoration:none;
+			}
+			#F > a:hover
+			{
+				color:red;
+			}
+			#Fourth
+			{
+				width:330px;
+				height:auto;
+				float:right;
+				border:1px solid black;
+				margin:-100px 0px 0px 10px;
+			}
+			#Fourth > h2
+			{
+				padding:5px 0px 0px 5px;
+			}
+			#G
+			{
+				width:160px;
+				height:20px;
+			}
+			#Fifth
+			{
+				width:285px;
+				height:auto;
+				/*border:2px solid red;*/
+				margin:500px 0px 0px 0px;
+				overflow:hidden;
+			}
+			#Fifth > h2
+			{
+				font-size:20px;
+				font-weight:bold;
+				padding:10px 0px 0px 5px;
+			}
+			.H
+			{
+				width:89px;
+				height:68px;
+				margin-left:5px;
+				margin-bottom:5px;
+				float:left;
+			}
+			#I > h3 > a
+			{
+				text-decoration:none;
+				color:brown;
+				font-size:17px;
+				padding:0px 0px 0px 10px;
+			}
+			#I > h3 > a:hover
+			{
+				text-decoration:none;
+				color:red;
+				font-size:17px;
+				padding:0px 0px 0px 10px;
+			}
+			#Sixth
+			{
+				width:350px;
+				height:auto;
+				/*border:2px solid red;*/
+				margin:-400px 0px 0px 305px;
+				overflow:hidden;
+			}
+			#Sixth > h2
+			{
+				font-size:20px;
+				font-weight:bold;
+				padding:10px 0px 0px 5px;
+			}
+			#J
+			{
+				width:350px;
+				height:auto;
+			}
+			#K
+			{
+				width:120px;
+				height:90px;
+				float:left;
+				margin:15px 0px 0px 10px;
+			}
+			#L > h2
+			{
+				color:brown;
+				font-size:17px;
+			}
+			#L
+			{
+				width:200px;
+				height:auto;
+				font-size:15px;
+				float:left;
+				text-align:justify;
+				padding:10px 5px 0px 5px;
+			}
+			#M
+			{
+				clear:both;
+				width:350px;
+				/*border:2px solid black;*/
+				height:auto;
+				margin:30px 0px 0px 30px;
+				padding:10px 0px 0px 0px;
+			}
+			#M > ul > li > a
+			{
+				color:brown;
+				text-decoration:none;
+			}
+			#M > ul > li > a:hover
+			{
+				color:red;
+				text-decoration:underline;
+			}
+			#N
+			{
+				width:350px;
+				height:auto;
+				/*border:2px solid black;*/
+				margin:10px 0px 0px 0px;
+			}
+			#N > a
+			{
+				color:black;
+				text-decoration:none;
+			}
+			#N > a:hover
+			{
+				color:red;
+				text-decoration:none;
+			}
+			#Seventh
+			{
+				width:320px;
+				height:auto;
+				border:1px solid black;
+				margin:-250px 0px 0px 664px;
+				padding:0px 8px 5px 8px;
+			}
+			#Seventh > h2
+			{
+				color:black;
+				font-size:25px;
+				padding:5px 0px 0px 2px;
+			}
+			#Seventh > a
+			{
+				color:brown;
+				font-weight:bold;
+				text-decoration:none;
+				padding:5px 0px 0px 0px;
+			}
+			#Seventh > a:hover
+			{
+				color:red;
+				text-decoration:none;
+			}
+			#Eight
+			{
+				width:333px;
+				height:auto;
+				border:1px solid black;
+				margin:20px 0px 0px 664px;
+				overflow:hidden;
+			}
+			#Eight > h2
+			{
+				color:black;
+				font-size:25px;
+				padding:5px 0px 0px 2px;
+			}
+			#O
+			{
+				width:333px;
+				height:auto;
+				padding:0px 0px 0px 5px;
+			}
+			#P
+			{
+				width:200px;
+				hieght:auto;
+				float:left;
+			}
+			#Q
+			{
+				width:120px;
+				height:90px;
+				float:left;
+			}
+			#S,#T
+			{
+				margin:8px;
+			}
+			#R
+			{
+				width:50px;
+				heighty:20px;
+				margin:0px 0px 10px 10px;
+			}
+			#U
+			{
+				margin:-20px 0px 5px 120px;
+			}
+			#U > a
+			{
+				color:brown;
+				text-decoration:none;
+			}
+			#U > a:hover
+			{
+				color:red;
+			}
+			#Last
+			{
+				width:635px;
+				height:auto;
+				/*border:2px solid black;*/
+				margin:-170px 0px 0px 0px;
+			}
+			#V
+			{
+				width:635px;
+				height:40px;
+				oveflow:hidden;
+				background-color:#870D0D;
+			}
+			#V > ul > li
+			{
+				width:109px;
+				height:40px;
+				float:left;
+				border-right:18px solid white;
+				text-align:center;
+				line-height:40px;
+			}
+			#V > ul > li > a
+			{
+				color:white;
+				text-decoration:none;
+				text-transform:uppercase;
+				font-size:13px;
+			}
+			#V > ul > li > a:hover
+			{
+				color:white;
+				text-decoration:underline;
+				text-transform:uppercase;
+				font-size:13px;
+			}
+			#W
+			{
+				width:620px;
+				height:auto;
+				border:1px solid black;
+				overflow:hidden;
+			}
+			#X
+			{
+				width:280px;
+				height:auto;
+				border:1px solid black;
+				margin:10px 0px 0px 10px;
+				float:left;
+			}
+			#X > img
+			{
+				margin:8px 0px 0px 8px;
+			}
+			#X > h2
+			{
+				color:brown;
+				font-size:25px;
+				padding:5px 0px 0px 5px;
+			}
+			#X > p
+			{
+				font-size:16px;
+				text-align:justify;
+				padding:5px 5px 0px 5px;
+			}
+			#X > p > a
+			{
+				color:brown;
+				text-decoration:none;
+			}
+			#X > p > a:hover
+			{
+				color:red;
+				text-decoration:none;
+			}
+			#Y
+			{
+				width:300px;
+				height:auto;
+				float:left;
+				margin:20px 0px 0px 25px;
+			}
+			#Y > ul > li
+			{
+				height:25px;
+			}
+			#Y > ul > li > a
+			{
+				color:brown;
+				text-decoration:none;
+			}
+			#Y > ul > li > a:hover
+			{
+				color:red;
+				text-decoration:none;
+			}
+			#Z
+			{
+				width:400px;
+				height:50px;
+				/*border:1px solid black;*/
+				margin:180px 0px 0px 310px;
+			}
+			#Z > a
+			{
+				color:brown;
+				text-decoration:none;
+			}
+			#Z > a:hover
+			{
+				color:red;
+			}
+			#Footer
+			{
+				width:1000px;
+				height:200px;
+				/*border:2px solid green;*/
+				background-color:black;
+				margin:20px 0px 0px 0px;
+			}
+			#F1
+			{
+				width:380px;
+				height:100px;
+				color:white;
+				/*border:1px solid red;*/
+				margin:0px 0px 0px 20px;
+				padding:50px;
+				float:left;
+			}
+			#F1 > a
+			{
+				color:white;
+				font-weight:bold;
+				text-decoration:none;
+			}
+			#F1 > a:hover
+			{
+				color:red;
+			}
+			.F2
+			{	
+				width:150px;
+				height:200px;
+				float:left;
+				/*border:1px solid red;*/
+				margin:0px 0px 0px 8px;
+			}
+			.F2 > ul > li
+			{
+				text-align:right;
+				padding:13px 15px 0px 0px;
+				line-height:20px;
+			}
+			.F2 > ul > li > a
+			{
+				color:white;
+				text-decoration:none;
+			}
+			.F2 > ul > li > a:hover
+			{
+				color:white;
+				text-decoration:underline;
+			}
